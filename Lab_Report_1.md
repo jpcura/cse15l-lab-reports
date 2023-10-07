@@ -1,4 +1,4 @@
-##Lab Report 1, Julian Curatolo
+**Lab Report 1, Julian Curatolo**
 1.
 ```
 [user@sahara ~]$ cd
