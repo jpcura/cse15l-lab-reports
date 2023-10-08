@@ -35,7 +35,7 @@ lecture1
 [user@sahara ~/lecture1]$ ls /home/lecture1/messages
 en-us.txt  es-mx.txt  id.txt  zh-cn.txt
 ```
-*pwd:/home/lecture1
+* pwd:/home/lecture1
 * ls with a directory lists all the files in the directory.
 * no error
 
