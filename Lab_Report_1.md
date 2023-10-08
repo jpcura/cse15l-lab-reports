@@ -1,4 +1,5 @@
 **Lab Report 1, Julian Curatolo**
+
 1.
 ```
 [user@sahara ~]$ cd
@@ -21,6 +22,7 @@ lecture1
 * pwd: /home 
 * No output and used CtrlC to exit. cat displays the contents of the directory provided
 * error. No output was produced and I had to exit manually.
+
 2.
 ```
 [user@sahara ~]$ cd /home/lecture1/messages
@@ -50,15 +52,15 @@ cat: /home/lecture1/: Is a directory
 [user@sahara ~]$ cd /home/lecture1/messages/zh-cn.txt
 bash: cd: /home/lecture1/messages/zh-cn.txt: Not a directory
 ```
-*pwd:/home
+* pwd:/home
 * cd sets the pwd to a directory. The path to a file is not a directory
 * Error. Expected to set the pwd to a file path but this could not be done.
 ``` 
 [user@sahara ~]$ ls /home/lecture1/messages/zh-cn.txt
 /home/lecture1/messages/zh-cn.txt
 ```
-*pwd:/home
-*Produced the path to the file. Without any directory contained within the file this makes sense. 
+* pwd:/home
+* Produced the path to the file. Without any directory contained within the file this makes sense. 
 * no error.
 ```
 [user@sahara ~]$ cat /home/lecture1/messages/zh-cn.txt
