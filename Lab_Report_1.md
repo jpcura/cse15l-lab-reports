@@ -2,10 +2,11 @@
 
 1.
 ```
-[user@sahara ~]$ cd
+[user@sahara ~/lecture1]$ cd
+[user@sahara ~]$ 
 ```
-* pwd: /home
-* There was no argument provided for cd, which changes the working directory, so no output or change in the directory occurred.
+* pwd: /home/lecture1
+* There was no argument provided for cd, which changes the working directory. With no path provided cd defaults to changing the pwd to the home directory. 
 * no error
 
 ```
@@ -17,11 +18,14 @@ lecture1
 * no error
 
 ```
-[user@saha ~]$ cat
+[user@sahara ~]$ cat
+hello world!
+hello world!
+^C
 ```
 * pwd: /home 
-* No output and used CtrlC to exit. cat displays the contents of the directory provided
-* error. No output was produced and I had to exit manually.
+* No output and can use CtrlC to exit. cat with no argument allows the user to type into the terminal. Pressing enter after typing cat reads the line and prints it out on the next line. cat displays the contents of the files provided, without a file provided it can read contents typed into the terminal and then redisplay it. 
+* No error
 
 2.
 ```
@@ -60,12 +64,12 @@ bash: cd: /home/lecture1/messages/zh-cn.txt: Not a directory
 /home/lecture1/messages/zh-cn.txt
 ```
 * pwd:/home
-* Produced the path to the file. Without any directory contained within the file this makes sense. 
+* Produced the path to the file. This output is different from when a path to a directory is given. A path to a directory prints the other directories or files within in that directory. Because zh-cn.txt has no files or directories within it, ls returns the path to the file.  
 * no error.
 ```
 [user@sahara ~]$ cat /home/lecture1/messages/zh-cn.txt
 你好世界
 ```
 * pwd:\home
-* read the text with in a file wich is expected for cat.
+* read the text within a file which is expected for cat.
 * no error
