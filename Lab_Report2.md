@@ -1,6 +1,7 @@
 **Lab Report 2**
 
 **Part 1**
+
 ![image](https://github.com/jpcura/cse15l-lab-reports/assets/146609257/c5e5f42e-c3bf-42ca-948f-efeb4f6db464)
 Which methods in your code are called?
 * the handleRequest(URI url) method is called.  
@@ -14,6 +15,7 @@ Which methods in your code are called?
 
 
 **Part 2**
+
 ![image](https://github.com/jpcura/cse15l-lab-reports/assets/146609257/7154df26-e3a9-43e0-bf4a-e96a373d216a)
 ![image](https://github.com/jpcura/cse15l-lab-reports/assets/146609257/0a12acee-f3a3-4f49-b635-2e5be69e1780)
 ![image](https://github.com/jpcura/cse15l-lab-reports/assets/146609257/a828062c-8b9b-464c-9358-aaff399160df)
