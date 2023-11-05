@@ -115,7 +115,7 @@ technical/biomed/1472-6769-1-3.txt:12:        death [ 2 3 4 5 6 ] . Infection of
 * `grep -n` searches for the pattern and gives the line number within the file where the pattern is found. This is useful since we can more quickly fine where our desired pattern is within a `.txt` file. 
 * source: https://www.gnu.org/software/grep/manual/grep.html
 
-`grep -v'
+`grep -v`
 ```
 #input:
 find technical > findlr301.txt
