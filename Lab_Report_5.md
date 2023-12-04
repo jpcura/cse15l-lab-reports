@@ -18,14 +18,20 @@
  
 
 * Information about the set up:
-file Structure (from lab7):  
+file Structure (from lab7):
+
+
 ```
 lab7
   ListExamples.java  
   ListExamplesTests.java  
   test.sh  
 ```
+
+
 ListExamples.java contents:  
+
+
 ```
 import java.util.ArrayList;
 import java.util.List;
@@ -79,7 +85,11 @@ class ListExamples {
 }
 ```
 
+
+
 ListExamplesTests.java contents:  
+
+
 ```
 import java.util.ArrayList;
 import java.util.List;
@@ -156,16 +166,24 @@ public class ListExamplesTests {
 }
 ```
 
-test.sh contents:  
+test.sh contents: 
+
+
 ```
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 ```
 
+
 Command line to trigger bug:  
+
+
 `bash test.sh`  
 
+
 Description of what to edit to fix the bug:   
+
+
 - Change line 27 in  `ListExamples.java`
 - Update the `while` loop condition from `index1 < list1.size() || index2 < list2.size()` to `index1 < list1.size() && index2 < list2.size()`
 
